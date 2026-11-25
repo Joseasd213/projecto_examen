@@ -328,3 +328,7 @@ main{
     line-height: 28px;
     letter-spacing: 0%;
 }
+
+@media (min-width: 1440px) {
+    
+}
