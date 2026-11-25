@@ -3,10 +3,9 @@
 body{
     background-color: rgb(14, 13, 13);
     text-align: center;
-    padding: 0 10px 0 10px;
+    padding: 0;
+    margin: 0;
 }
-
-/*Other Attributes*/
 
 /*Words Attributes*/
 
@@ -58,9 +57,9 @@ h3{
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 35px;
     padding-top: 10px;
-    
 }
 
 .header-content{
@@ -103,6 +102,12 @@ h3{
 }
 
 /*Main*/
+
+main{
+    border-top: 1px solid rgb(49, 49, 49);
+    border-bottom: 1px solid rgb(49, 49, 49);
+    padding: 0 20px 100px 20px;
+}
 
 .title h1{
     font-family: Inter;
@@ -186,4 +191,126 @@ h3{
     background-color: black;
     align-items: center;
     text-align: center;
+}
+
+.bellow{
+
+}
+
+.bellow h2{
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 36px;
+    letter-spacing: -0.75%;
+    text-align: center;
+}
+
+.bellow p{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.bellow-bellow h2{
+    color: white;
+    font-family: Inter;
+    font-weight: 800;
+    font-style: Extra Bold;
+    font-size: 48px;
+    leading-trim: NONE;
+    line-height: 48px;
+    letter-spacing: -1.2%;
+    text-align: center;
+}
+
+.bellow-bellow h5{
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.bellow-bellow p button{
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.button-2{
+    width: 122px;
+    height: 32px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+    border-radius: 10px;
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-content p{
+    color: white;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.footer-content-2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-content-2{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
 }
