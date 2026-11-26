@@ -347,6 +347,7 @@ main{
     letter-spacing: 0%;
 }
 
+<<<<<<< HEAD
 /*Desktop*/
 
 .section-title-phone{
@@ -362,6 +363,9 @@ main{
 .section-search-desktop{
     display: none;
 }
+=======
+/*ESCRIPTORI*/
+>>>>>>> 7408d3b5af4531c09970a30a7f68faac49defc1f
 
 .hidden{
     display: none;
@@ -432,6 +436,7 @@ main{
         justify-content: space-between;
         padding: 0 100px 0 100px;
     }
+<<<<<<< HEAD
 
     .section-title-phone{
         display: none;
@@ -470,4 +475,6 @@ main{
         right: 12px;
         cursor: pointer;
     }  
+=======
+>>>>>>> 7408d3b5af4531c09970a30a7f68faac49defc1f
 }
