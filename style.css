@@ -3,10 +3,22 @@
 body{
     background-color: rgb(14, 13, 13);
     text-align: center;
+    font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
 }
 
+/*Other Styles*/
+
+a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+}
 /*Words Attributes*/
 
 p{
@@ -26,7 +38,7 @@ h1{
 
 h2{
     color: white;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-style: Semi Bold;
     font-size: 30px;
@@ -38,7 +50,7 @@ h2{
 
 h3{
     color: white;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-style: Semi Bold;
     font-size: 24px;
@@ -54,12 +66,18 @@ h3{
     height: 192px;
 }
 
+.img-2{
+    width: 311px;
+    height: 192px;
+}
+
 /*Header*/
 
 .header{
     display: flex;
-    justify-content: space-around;
-    gap: 35px;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+    gap: 55px;
     padding-top: 10px;
 }
 
@@ -67,7 +85,7 @@ h3{
     display: flex;
     text-align: center;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
 }
 
 .header-content-2{
@@ -96,7 +114,7 @@ h3{
 .button-1{
     width: 69px;
     height: 32px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-style: Semi Bold;
     font-size: 14px;
@@ -122,7 +140,7 @@ main{
 }
 
 .title h1{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-style: Extra Bold;
     font-size: 48px;
@@ -133,7 +151,7 @@ main{
 }
 
 .title p{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-style: Regular;
     font-size: 14px;
@@ -147,7 +165,7 @@ main{
     width: 122px;
     height: 32px;
     margin: 25px 0 25px 0;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-style: Semi Bold;
     font-size: 14px;
@@ -162,7 +180,7 @@ main{
 }
 
 .gallery h3{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-style: Semi Bold;
     font-size: 24px;
@@ -172,7 +190,7 @@ main{
 }
 
 .gallery p{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-style: Regular;
     font-size: 14px;
@@ -212,7 +230,7 @@ main{
 }
 
 .bellow h2{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-style: Semi Bold;
     font-size: 30px;
@@ -223,7 +241,7 @@ main{
 }
 
 .bellow p{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-style: Regular;
     font-size: 14px;
@@ -235,7 +253,7 @@ main{
 
 .bellow-bellow h2{
     color: white;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-style: Extra Bold;
     font-size: 48px;
@@ -247,7 +265,7 @@ main{
 
 .bellow-bellow h5{
     color: white;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-style: Regular;
     font-size: 18px;
@@ -258,7 +276,7 @@ main{
 }
 
 .bellow-bellow p button{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-style: Semi Bold;
     font-size: 14px;
@@ -270,7 +288,7 @@ main{
 .button-3{
     width: 122px;
     height: 32px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-style: Semi Bold;
     font-size: 14px;
@@ -301,7 +319,7 @@ main{
 
 .footer-content p{
     color: white;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-style: Medium;
     font-size: 16px;
@@ -320,7 +338,7 @@ main{
 }
 
 .footer-content-2{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-style: Regular;
     font-size: 14px;
@@ -329,6 +347,75 @@ main{
     letter-spacing: 0%;
 }
 
+/*ESCRIPTORI*/
+
+.hidden{
+    display: none;
+}
+
+.button-imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 @media (min-width: 1440px) {
+    .gallery{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .hidden{
+        display: block;
+    }
+
+    .title{
+        padding: 200px 350px 0 350px;
+    }
     
+    .img{
+        width: 1024px;
+        height: 632px;
+    }
+
+    .img-2{
+        width: 672px;
+        height: 412px;
+    }
+
+    .button-imagen{
+        padding: 0 0 150px 0;
+    }
+    .button-2{
+        width: 122px;
+        height: 32px;
+        margin: 35px 0 55px 0;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 14px;
+        leading-trim: NONE;
+        line-height: 28px;
+        letter-spacing: 0%;
+        border-radius: 5px;
+    }
+    h2{
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-style: Semi Bold;
+        font-size: 48px;
+        leading-trim: NONE;
+        line-height: 42px;
+        letter-spacing: -1.25%;
+        text-align: center; 
+    }
+    .footer{
+        justify-content: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px 0 100px;
+    }
 }
